@@ -9,7 +9,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="text-[red] text-3xl font-bold">Welcome to movie</Text>
+      <Text className="text-[blue] text-3xl font-bold">Welcome to movie</Text>
+      {/* <Link href={'/onboard'}>Onboarding</Link>
+      <Link href={'/movie/BlackPanther'}>Details</Link> */}
     </View>
   );
 }
